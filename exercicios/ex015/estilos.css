@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+<style>
+        
+
+        h1 {
+            color: cadetblue;
+        }
+
+        h2 {
+            color: darkred;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        body {
+            background-color: rgb(212, 255, 255);
+          }
+
+    </style>

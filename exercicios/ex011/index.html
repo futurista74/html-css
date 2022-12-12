@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas</title>
+    <style>
+        body
+        {
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagens/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/M.png" type="image/png">
+        <img src="imagens/G.png" alt="GRANDÃO e piquininho">
+    </picture>
+
+    <h2>audio</h2>
+    <audio preload="metadata" controls>
+        <source src="midia/calculadora.mp3" type="audio/mpeg">
+        <source src="midia/calculadora - Copia.ogg" type="audio/ogg">
+        <p>não foi possivel reprodusir o audio <br>clique <a href="midia/calculadora.mp3">aqui</a> para o download</p>
+    </audio>
+</body>
+</html>

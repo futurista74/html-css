@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        a{
+            color: lightcyan;
+        }
+
+        header{
+            width: 600px;
+            margin: 10px;
+            background-color: rgb(136, 136, 136);
+            border-radius: 10px;
+            
+        }
+
+        main{
+            margin: 10px;
+            width: 650px;
+            background-color: rgb(136, 136, 136);
+            border-radius: 10px 0px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        footer{
+            text-align: center;
+            background-color: rgb(22, 22, 22);
+            color: rgb(182, 182, 182);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(194, 194, 194);
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+        nav > a{
+            text-decoration: none;
+            color: black;
+            margin: 15px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        footer > p{
+            margin: 0;
+        }
+        nav{
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+            background-color: rgb(194, 194, 194);
+            padding: 3px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        article > h2{
+            color: rgb(163, 55, 55);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ola, bem-vindo ao meu site</h1>
+        <nav>
+            <a href="caixas01.html">pagina anterior</a><br>
+            <a href="https://www.youtube.com/watch?v=JPMm-jyKOaM&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=27">canal no yt</a><br>
+            <a href="caixa03.html">proxima pagina</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="notasdanovaversão">
+            <article>
+                <h2>discussões</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A eaque unde dolorum quo! Quo ducimus, delectus necessitatibus dicta rem eius expedita magni distinctio, excepturi eligendi voluptate mollitia quam molestias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta dolor voluptate repellendus mollitia illum, hic quaerat corporis vero, excepturi odit natus aperiam atque vel facilis deserunt pariatur inventore modi non. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga laboriosam corrupti ea itaque dicta omnis consequuntur nihil suscipit minus culpa? Modi fuga veritatis deleniti repellendus assumenda laborum ut, incidunt ducimus!</p>
+                <aside>
+                    escrito por mim
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>desenvolvido por trilogy studios</p>
+    </footer>
+    <p></p>
+    <div id="bola"></div>
+</body>
+</html>
