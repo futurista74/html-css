@@ -74,6 +74,7 @@ border-radius: 5px;
 
 }
 main{
+    text-align: justify;
     min-width: 300px;
     max-width: 1000px;
     padding: 20px;
