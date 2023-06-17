@@ -24,3 +24,41 @@ header > h1{
 header > p{
     padding-bottom: 50px;
 }
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.normal{
+background-color: white;
+color: black;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.img{
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.img > p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.253);
+    border-radius: 5px
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
