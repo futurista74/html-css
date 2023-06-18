@@ -23,12 +23,13 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    font-family: var(--f2);
 }
 
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--f2);
+    font-size: 10vw;
 }
 
 header > p{
@@ -43,17 +44,20 @@ a:hover{
     text-decoration: underline;
 }
 
-.normal{
-background-color: white;
-color: black;
-}
-
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--f3);
+    font-size: 2em;
 }
+
+.normal{
+background-color: white;
+color: black;
+}
+
 
 .img{
     background-color: rgb(15, 15, 15);
@@ -61,9 +65,10 @@ section{
 }
 
 .img > p{
-    width: 250px;
+    padding: 8px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.253);
-    border-radius: 5px
+    border-radius: 10px
 }
 
 footer{
