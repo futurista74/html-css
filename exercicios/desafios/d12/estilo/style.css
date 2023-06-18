@@ -53,6 +53,10 @@ section{
     font-size: 2em;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 .normal{
 background-color: white;
 color: black;
