@@ -66,6 +66,9 @@ color: black;
 .img{
     background-color: rgb(15, 15, 15);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.568);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .img > p{
@@ -73,6 +76,15 @@ color: black;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.253);
     border-radius: 10px
+}
+
+section#im01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#im02{
+    background-image: url('../imagens/background002.jpg');
 }
 
 footer{
